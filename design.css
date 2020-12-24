@@ -1,0 +1,15 @@
+.header {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3, h4, h5 {
+    text-align: center;
+    font-size: 30px
+}
