@@ -1,20 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
         <title>Personal Website</title>
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
         <link rel="stylesheet" href="design.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        
     </head>
     <body>
-        <div class="header">
-            <h1>Eric Reyes</h1>
+        <div class="image">
+            <div class="header">
+                <h1 class="intro">Hello!<br>My name is Eric Reyes</h1>
+                <h1 class="welcome">Welcome to my Personal Website!</h1>
+<!--
+                <div class="btn">
+                    <button>About Me</button>
+                    <button>Interest</button>
+                    <button>Languages</button>
+                    <button>Contact Me</button>
+                </div>
+-->
+            </div>
+        </div>
+<!-- PARALLAX
+        <div class="parallax"></div>
+        <h1>Hello! My name is Eric Reyes</h1>
+        <div class="parallax"></div>
+-->
+        
+        <button class="accordion">About Me</button>
+        <div class="panel">
+            <p class="about">Hello there! My name is Eric Reyes<br>and I am a current undergraduate student of the Software Systems program at Simon Fraser University looking to pursue a career in software development.
+               
+            </p>
+        </div>
+
+        <button class="accordion">Interest</button>
+        <div class="panel">
+            <p>SPORTS:
+                • Involved in extra-curricular activities such as playing volleyball, flag-football, and basketball
+                during secondary education.
+                MUSIC:
+                • Passion for discovering and listening to new types of music.</p>
+        </div>
+
+        <button class="accordion">Languages</button>
+        <div class="panel">
+            <p class="languages">• C/C++  • Java  • HTML  • CSS  • JavaScript</p>
         </div>
         
-<!--        <h2>About Me</h2>
-        <h3>Interest</h3>
-        <h4>Languages</h4>
-        <h5>Contact</h5>-->
+        <button class="accordion">Contact Me</button>
+        <div class="panel">
+            <a href="https://www.linkedin.com/in/eric-reyes-16b978197/">
+                <img src="images/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt="LinkedIn" id="linked">
+            </a>
+            <a href = "mailto: ejreyes@sfu.ca">
+                <img src="images/email.png" alt="Email" id="email">
+            </a>            
+            <a href = "https://github.com/ejrey">
+                <img src="images/git.png" alt="GitHub" id="git">
+            </a>
+        </div>
         
-
+        <script src="accordian.js"></script>
     </body>
 </html>

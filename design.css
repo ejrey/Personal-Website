@@ -1,15 +1,161 @@
-.header {
-    background-color: black;
-}
-
-h1 {
-    text-align: center;
-    color: white;
+body, html {
+    height: 100%;
+    background-color: #2a2826;
     margin: 0;
-    padding: 0;
+/*    background-image: url(background.gif);*/
+/*    padding: 0;*/
+}
+.parallax {
+    background-image: url(images/background.gif);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header {
+/*
+    width: 100vw;
+    height: 80vh;
+*/
+/*
+    background-image: url(1Fvf.txt);
+    background-size: cover;
+    background-repeat: no-repeat;
+*/
+/*    object-fit: cover;*/
+/*    padding-top: 70px*/
+    
 }
 
-h2, h3, h4, h5 {
+.image {
+    background-image: url(images/background.gif);
+    background-color: #cccccc;
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro {
+    color: white;
+/*    font-size: px;*/
+    font-family: "Staatliches", cursive;
+/*    background-image: url(background.gif);*/
+    margin: auto;
     text-align: center;
-    font-size: 30px
+    padding-top: 255px;
+    padding-right: 865px;
+/*    line-height: 2;*/
+    font-size: 60px;
+}
+
+.welcome {
+    color: white;
+    font-family: "Staatliches", cursive;
+/*    margin: auto;*/
+    text-align: right;
+/*    padding-top: 100px;*/
+    font-size: 60px;
+/*    padding-top: 255px;*/
+}
+
+/*
+.btn button{
+    text-align: right;
+    padding: 10px 24px;
+    display: block;
+    margin-left: auto;
+    float: none;
+}
+*/
+
+h2 {
+    color: white;
+}
+
+p {
+    color: black;
+    font-family: "Staatliches", cursive;
+    text-align: left;
+    font-size: 30px;
+}
+
+.about {
+    color: black;
+    font-family: "Staatliches", cursive;
+    text-align: left;
+    font-size: 25px;
+}
+
+.languages {
+    color: black;
+    font-family: "Staatliches", cursive;
+    text-align: center;
+    font-size: 30px;
+}
+.contact {
+    color: black;
+    font-family: "Staatliches", cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+#linked {
+    width: 60px;
+    height: 60px;
+}
+
+#email {
+    width: 60px;
+    height: 60px;
+}
+
+#git {
+    width: 60px;
+    height: 60px;
+}
+
+.accordion {
+    background-color: #2a2826;
+    font-family: "Staatliches", cursive;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
 }
