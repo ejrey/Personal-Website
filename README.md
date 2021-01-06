@@ -1,3 +1,3 @@
 # Personal-Website
 
-WORK IN PROGRESS
+This is a personal project showcasing a little bit about myself and what I have to offer.
