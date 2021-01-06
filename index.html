@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>Personal Website</title>
-<!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="design.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
         
     </head>
     <body>
@@ -13,36 +15,33 @@
             <div class="header">
                 <h1 class="intro">Hello!<br>My name is Eric Reyes</h1>
                 <h1 class="welcome">Welcome to my Personal Website!</h1>
-<!--
-                <div class="btn">
-                    <button>About Me</button>
-                    <button>Interest</button>
-                    <button>Languages</button>
-                    <button>Contact Me</button>
-                </div>
--->
             </div>
         </div>
-<!-- PARALLAX
-        <div class="parallax"></div>
-        <h1>Hello! My name is Eric Reyes</h1>
-        <div class="parallax"></div>
--->
         
         <button class="accordion">About Me</button>
         <div class="panel">
-            <p class="about">Hello there! My name is Eric Reyes<br>and I am a current undergraduate student of the Software Systems program at Simon Fraser University looking to pursue a career in software development.
-               
+            <p class="about">
+                Hey there! I’m Eric Reyes and I am a current undergraduate student of the Software Systems program at Simon Fraser University looking to pursue a career in software development.
+                <br>
+                <br>
+                Within the experiences and knowledge I have gained while being in a computer science program, I have enjoyed learning the different types of algorithms and the development of mobile applications. In the future, I would love to utilize my knowledge in the real-world to contribute in developing different type systems society needs.
+                <br>
+                <br>
+                Furthermore, I have partaken in different projects for certain classes and personal projects (GitHub link under Contact Me).
             </p>
+            <div class="about_image">
+                <img src="images/IMG_1635%20(1).JPG" alt="photo" id="me">
+            </div>
         </div>
 
         <button class="accordion">Interest</button>
         <div class="panel">
             <p>SPORTS:
-                • Involved in extra-curricular activities such as playing volleyball, flag-football, and basketball
-                during secondary education.
-                MUSIC:
-                • Passion for discovering and listening to new types of music.</p>
+                • Involved in extra-curricular activities such as playing volleyball, flag-football, and basketball during secondary education.
+                <br>
+                MUSIC:&nbsp;&nbsp;
+                • Passion for discovering and listening to new types of music.
+            </p>
         </div>
 
         <button class="accordion">Languages</button>
@@ -52,17 +51,19 @@
         
         <button class="accordion">Contact Me</button>
         <div class="panel">
-            <a href="https://www.linkedin.com/in/eric-reyes-16b978197/">
-                <img src="images/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt="LinkedIn" id="linked">
-            </a>
-            <a href = "mailto: ejreyes@sfu.ca">
-                <img src="images/email.png" alt="Email" id="email">
-            </a>            
-            <a href = "https://github.com/ejrey">
-                <img src="images/git.png" alt="GitHub" id="git">
-            </a>
+            <div class="contact_images" >
+                <a href="https://www.linkedin.com/in/eric-reyes-16b978197/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn" id="linked">
+                </a>
+                <a href = "https://github.com/ejrey" target="_blank">
+                    <img src="images/git.png" alt="GitHub" id="git">
+                </a>
+                <a href = "mailto: ejreyes@sfu.ca">
+                    <img src="images/email.png" alt="Email" id="email">
+                </a>            
+            </div>
+
         </div>
-        
         <script src="accordian.js"></script>
     </body>
 </html>

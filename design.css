@@ -2,8 +2,6 @@ body, html {
     height: 100%;
     background-color: #2a2826;
     margin: 0;
-/*    background-image: url(background.gif);*/
-/*    padding: 0;*/
 }
 .parallax {
     background-image: url(images/background.gif);
@@ -12,20 +10,6 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-.header {
-/*
-    width: 100vw;
-    height: 80vh;
-*/
-/*
-    background-image: url(1Fvf.txt);
-    background-size: cover;
-    background-repeat: no-repeat;
-*/
-/*    object-fit: cover;*/
-/*    padding-top: 70px*/
-    
 }
 
 .image {
@@ -39,37 +23,29 @@ body, html {
 }
 
 .intro {
+    float: left;
     color: white;
-/*    font-size: px;*/
     font-family: "Staatliches", cursive;
-/*    background-image: url(background.gif);*/
-    margin: auto;
     text-align: center;
-    padding-top: 255px;
-    padding-right: 865px;
-/*    line-height: 2;*/
-    font-size: 60px;
+    position: absolute;
+    margin-right: 65%;
+    margin-left: 5%;
+    margin-top: 13%;
+    display: inline;
+    font-size: 65px;
 }
 
 .welcome {
+    float: right;
     color: white;
     font-family: "Staatliches", cursive;
-/*    margin: auto;*/
-    text-align: right;
-/*    padding-top: 100px;*/
-    font-size: 60px;
-/*    padding-top: 255px;*/
+    text-align: center;
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 13%;
+    display: inline;
+    font-size: 65px;
 }
-
-/*
-.btn button{
-    text-align: right;
-    padding: 10px 24px;
-    display: block;
-    margin-left: auto;
-    float: none;
-}
-*/
 
 h2 {
     color: white;
@@ -77,44 +53,64 @@ h2 {
 
 p {
     color: black;
-    font-family: "Staatliches", cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: left;
     font-size: 30px;
 }
 
 .about {
     color: black;
-    font-family: "Staatliches", cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: left;
     font-size: 25px;
+    float: left;
+    margin-left: 2%;
+    display: block;
+    width: 60%;
+}
+
+.about_image {
+    margin: 1%;
+    margin-right: 10%;
+    float: right;
+    display: block;
 }
 
 .languages {
     color: black;
-    font-family: "Staatliches", cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 30px;
 }
 .contact {
     color: black;
-    font-family: "Staatliches", cursive;
+    font-family: 'PT Sans', sans-serif;
     text-align: center;
     font-size: 30px;
 }
 
+.contact_images {
+    text-align: center;
+}
+
 #linked {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 }
 
 #email {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
 }
 
 #git {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
+}
+
+#me {
+    width: 300px;
+    height: 399px;
 }
 
 .accordion {
@@ -131,7 +127,6 @@ p {
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
     background-color: #ccc;
     color: black;
@@ -151,7 +146,6 @@ p {
 }
 
 
-/* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 0 18px;
     background-color: white;
